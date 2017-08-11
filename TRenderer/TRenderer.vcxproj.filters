@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shapes">
+      <UniqueIdentifier>{9590f756-660a-46c7-88cf-fa3cd0f1d777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accelerators">
+      <UniqueIdentifier>{d25325d1-c7f9-4a2a-8631-c750c5e433ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cameras">
+      <UniqueIdentifier>{903c36da-d2f0-43bf-8d4e-6e56a8d5eaeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplers">
+      <UniqueIdentifier>{e82fa83b-fd4a-4eb1-803b-42b599806fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{099520da-b504-4869-b71e-eb1f0ddc325f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="materials">
+      <UniqueIdentifier>{2221cbbc-f621-4983-9f3d-4a47e4b40abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{92091186-5e3b-4f4c-8289-077c1207d6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{6dd0f6be-419f-49ed-a98f-a33913e1e233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lights">
+      <UniqueIdentifier>{08973c5f-3bd8-469a-9543-ce37c4c6aae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="integrators">
+      <UniqueIdentifier>{5ac6d7b2-df11-492f-9f79-e3a5bd55be8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="materials\Material.h">
+      <Filter>materials</Filter>
+    </ClInclude>
+    <ClInclude Include="filters\Filter.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="accelerators\Aggregate.h">
+      <Filter>accelerators</Filter>
+    </ClInclude>
+    <ClInclude Include="cameras\Camera.h">
+      <Filter>cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="media\Medium.h">
+      <Filter>media</Filter>
+    </ClInclude>
+    <ClInclude Include="lights\Light.h">
+      <Filter>lights</Filter>
+    </ClInclude>
+    <ClInclude Include="textures\Texture.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="integrators\Integrator.h">
+      <Filter>integrators</Filter>
+    </ClInclude>
+    <ClInclude Include="samplers\Sampler.h">
+      <Filter>samplers</Filter>
+    </ClInclude>
+    <ClInclude Include="shapes\Shape.h">
+      <Filter>shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="integrators\SamplerIntegrator.h">
+      <Filter>integrators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="integrators\Integrator.cpp">
+      <Filter>integrators</Filter>
+    </ClCompile>
+    <ClCompile Include="integrators\SamplerIntegrator.cpp">
+      <Filter>integrators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
